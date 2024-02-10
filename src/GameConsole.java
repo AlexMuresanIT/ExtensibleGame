@@ -26,7 +26,7 @@ public class GameConsole<T extends Game<? extends Player>>{
 
         game.createNewPlayer(game.getGameName());
         Map<Character,GameAction> standardActions = game.getGameActions(player);
-
+        int points = 0;
 
         boolean playing=true;
         while(playing){
